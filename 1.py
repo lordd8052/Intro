@@ -5,6 +5,6 @@ for i in range(3):
     plt.ylabel("P(X) ------>")
     plt.xlabel("x ------>")
     plt.hist(poisson, density=True)
-    np.savetxt("Poisson_Dataset" + str(i), poisson)
+    np.savetxt("Poissoasfsdg DAGSG AG ag AGG AE AEGn_Dataset" + str(i), poisson)
     plt.savefig('Phistogram'+str(i)+'.png')
     plt.show()
